@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANI MARKET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">ANI MARKET</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="cart-btn" onclick="openCart()">🛒 Cart</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to ANI MARKET</h1>
+      <p>Your one-stop shop for amazing products in India</p>
+      <a href="shop.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <!-- ...existing code... -->
+<section id="shop" class="shop">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://www.leafstudios.in/cdn/shop/files/1_a43c5e0b-3a47-497d-acec-b4764259b10e_1024x1024.png?v=1750486829" alt="Headphone">
+      <h3>Wireless Headphones</h3>
+      <p class="price">₹7,999</p>
+      <button onclick="addToCart('Wireless Headphones', 7999)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61pIzNaNRWL._UF1000,1000_QL80_.jpg" alt="Watch">
+      <h3>Smart Watch</h3>
+      <p class="price">₹6,499</p>
+      <button onclick="addToCart('Smart Watch', 6499)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/510uTHyDqGL.jpg" alt="Laptop">
+      <h3>Laptop</h3>
+      <p class="price">₹51,999</p>
+      <button onclick="addToCart('Laptop', 51999)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71f3BmjCwtL.jpg" alt="Shoes">
+      <h3>Sports Shoes</h3>
+      <p class="price">₹2,499</p>
+      <button onclick="addToCart('Sports Shoes', 2499)">Add to Cart</button>
+    </div>
+    <!-- New Products Start -->
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61Iw0g8zYYL._UF1000,1000_QL80_.jpg" alt="Bluetooth Speaker">
+      <h3>Bluetooth Speaker</h3>
+      <p class="price">₹1,299</p>
+      <button onclick="addToCart('Bluetooth Speaker', 1299)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSEJQ5NNrJ4FDvCUX0qhzm9TxrCT2-2sSIRbqb9WBbzc5kV_YYTy68uwrB08Ggjs53DCok8cL_y0plOqPUZCtzLORMEsU4g" alt="Fitness Band">
+      <h3>Fitness Band</h3>
+      <p class="price">₹1,199</p>
+      <button onclick="addToCart('Fitness Band', 1199)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61UxfXTUyvL._AC_UF1000,1000_QL80_.jpg" alt="Backpack">
+      <h3>Travel Backpack</h3>
+      <p class="price">₹899</p>
+      <button onclick="addToCart('Travel Backpack', 899)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/660aa6721492b5926ad1dafa/hrs-bt-07-bk-bk-bk.jpg" alt="Sunglasses">
+      <h3>Stylish Sunglasses</h3>
+      <p class="price">₹499</p>
+      <button onclick="addToCart('Stylish Sunglasses', 499)">Add to Cart</button>
+    </div>
+    <!-- New Products End -->
+  </div>
+</section>
+<!-- ...existing code... -->
+  <!-- About Section -->
+  <section id="about" class="about">
+   
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ANI MARKET | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
